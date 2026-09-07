@@ -1,0 +1,21 @@
+[project]
+name = "email-mcp"
+version = "0.1.0"
+description = "Custom MCP server for sending/receiving email over IMAP and SMTP across multiple mailboxes"
+readme = "README.md"
+authors = [
+    { name = "Ondrej Zelina", email = "ondrej.web@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "imap-tools>=1.15.0",
+    "mcp>=2.1.1",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+email-mcp = "email_mcp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
