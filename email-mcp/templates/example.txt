@@ -1,0 +1,6 @@
+Dobrý den $jmeno,
+
+děkujeme za Vaši zprávu ohledně $predmet. Ozveme se Vám co nejdříve.
+
+S pozdravem,
+$podpis
